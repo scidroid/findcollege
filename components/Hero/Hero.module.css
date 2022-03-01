@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.title {
+  color: var(--black);
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.title_sub {
+  color: var(--secondary-color);
+  font-style: italic;
+}
+
+.subtitle {
+  color: var(--black);
+  font-size: 2.15rem;
+  text-align: center;
+}
+
+.link {
+  color: var(--black);
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: 1rem var(--primary-color) solid;
+  text-decoration: none;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.link:hover {
+  border-color: var(--secondary-color);
+}

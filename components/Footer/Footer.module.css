@@ -1,0 +1,6 @@
+.title {
+  text-align: center;
+  color: var(--secondary-color);
+  font-style: italic;
+  font-size: 2rem;
+}
